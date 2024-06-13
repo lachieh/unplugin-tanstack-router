@@ -76,12 +76,10 @@ export const TanStackRouterUnpluginGenerator: UnpluginFactory<Partial<Config>, f
     buildStart: async () => {
       ROOT = process.cwd()
       userConfig = await getConfig(inlineConfig, ROOT)
-      console.log('Generate 🦆')
       await generate()
     },
     watchChange: async (file, context) => {
       if (['create', 'update', 'delete'].includes(context.event)) {
-        console.log('File changed: ', file, context.event)
         await handleFile(file, context.event)
       }
     },
