@@ -1,5 +1,10 @@
 # unplugin-tanstack-router
 
+> [!WARNING]
+> This plugin is deprecated in favor of the official package which is now also based on unplugin: [@tanstack/router-plugin](https://github.com/TanStack/router/tree/main/packages/router-plugin)
+>
+> This will no longer be updated/maintained.
+
 [![NPM version](https://img.shields.io/npm/v/unplugin-tanstack-router?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-tanstack-router)
 
 Build plugin for route generation and file splitting built on [unplugin](https://github.com/unjs/unplugin).
